@@ -60,22 +60,24 @@ public class Main {
             System.out.println(total);
         }
 
-            // "Задание" 5
-            System.out.println("Задание 5");
-        int  contribution = 29000;
+        // "Задание" 5
+        System.out.println("Задание 5");
+        int contribution = 29000;
         int total = 0;
         for (int i = 0; i < 12; i++) {
 
-            total = total +total/100;
+            total = total + total / 100;
             total = total + contribution;
-           System.out.println("Месяц" + i + " Итого" = total);
+            System.out.println("Месяц" + i + " Итого" = total);
         }
 
 
-            {
-            }
+        {
         }
     }
+}
+
+
 
 
 
