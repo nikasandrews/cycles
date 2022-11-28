@@ -54,28 +54,31 @@ public class Main {
 
         int contribution = 29000;
         int total = 0;
-        for (int i = 0; i < 12; i++) {
-
+        for (int i = 1; i <= 12; i++) {
+            total += contribution;
             total = total + contribution;
-            System.out.println(total);
+            System.out.println("Месяц  " + i + "  , сумма накоплений равна " + total + "_ рублей");
         }
+            //     " Задание" 5
+            System.out.println("Задание 5");
+            double totalWithPercent = 0;
+            double percent = 0.01;
+            for (int i = 1; i <= 12; i++) {
+                totalWithPercent = (totalWithPercent + contribution) * (1 + percent);
+                System.out.println("Месяц  " + i + "  , сумма накоплений равна " + totalWithPercent + " рублей");
+            }
 
-        // "Задание" 5
-        System.out.println("Задание 5");
-        int contribution = 29000;
-        int total = 0;
-        for (int i = 0; i < 12; i++) {
+                }
 
-            total = total + total / 100;
-            total = total + contribution;
-            System.out.println("Месяц" + i + " Итого" = total);
-        }
+            }
 
 
-        {
-        }
-    }
-}
+
+
+
+
+
+
 
 
 
